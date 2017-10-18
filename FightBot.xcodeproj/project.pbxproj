@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6CFC6D99D9A22576A8E93BB /* Pods_FightBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB481C60E4D38FEBB60716FE /* Pods_FightBot.framework */; };
+		E91714C21F92E0BE00554462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91714C11F92E0BE00554462 /* AppDelegate.swift */; };
+		E91714C41F92E0BE00554462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91714C31F92E0BE00554462 /* ViewController.swift */; };
+		E91714C71F92E0BE00554462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91714C51F92E0BE00554462 /* Main.storyboard */; };
+		E91714C91F92E0BE00554462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91714C81F92E0BE00554462 /* Assets.xcassets */; };
+		E91714CC1F92E0BE00554462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91714CA1F92E0BE00554462 /* LaunchScreen.storyboard */; };
+		E91714D41F92E18D00554462 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E91714D31F92E18D00554462 /* GoogleService-Info.plist */; };
+		E91714D61F92E36B00554462 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91714D51F92E36B00554462 /* MenuVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		434F06ED6B4496E21E8D9688 /* Pods-FightBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FightBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FightBot/Pods-FightBot.debug.xcconfig"; sourceTree = "<group>"; };
+		9F8B3EAC42A79DBF77DE22A6 /* Pods-FightBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FightBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-FightBot/Pods-FightBot.release.xcconfig"; sourceTree = "<group>"; };
+		DB481C60E4D38FEBB60716FE /* Pods_FightBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FightBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91714BE1F92E0BE00554462 /* FightBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FightBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91714C11F92E0BE00554462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E91714C31F92E0BE00554462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E91714C61F92E0BE00554462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E91714C81F92E0BE00554462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E91714CB1F92E0BE00554462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E91714CD1F92E0BE00554462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91714D31F92E18D00554462 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E91714D51F92E36B00554462 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E91714BB1F92E0BE00554462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CFC6D99D9A22576A8E93BB /* Pods_FightBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377EA9E59FEBA4117BAF3287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB481C60E4D38FEBB60716FE /* Pods_FightBot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E31BB67C474117EBFE413EBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				434F06ED6B4496E21E8D9688 /* Pods-FightBot.debug.xcconfig */,
+				9F8B3EAC42A79DBF77DE22A6 /* Pods-FightBot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E91714B51F92E0BE00554462 = {
+			isa = PBXGroup;
+			children = (
+				E91714C01F92E0BE00554462 /* FightBot */,
+				E91714BF1F92E0BE00554462 /* Products */,
+				E31BB67C474117EBFE413EBA /* Pods */,
+				377EA9E59FEBA4117BAF3287 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E91714BF1F92E0BE00554462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91714BE1F92E0BE00554462 /* FightBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E91714C01F92E0BE00554462 /* FightBot */ = {
+			isa = PBXGroup;
+			children = (
+				E91714C11F92E0BE00554462 /* AppDelegate.swift */,
+				E91714C31F92E0BE00554462 /* ViewController.swift */,
+				E91714D51F92E36B00554462 /* MenuVC.swift */,
+				E91714C81F92E0BE00554462 /* Assets.xcassets */,
+				E91714C51F92E0BE00554462 /* Main.storyboard */,
+				E91714CA1F92E0BE00554462 /* LaunchScreen.storyboard */,
+				E91714CD1F92E0BE00554462 /* Info.plist */,
+				E91714D31F92E18D00554462 /* GoogleService-Info.plist */,
+			);
+			path = FightBot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E91714BD1F92E0BE00554462 /* FightBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91714D01F92E0BE00554462 /* Build configuration list for PBXNativeTarget "FightBot" */;
+			buildPhases = (
+				1D81056614DDE2ABC1A64A3A /* [CP] Check Pods Manifest.lock */,
+				E91714BA1F92E0BE00554462 /* Sources */,
+				E91714BB1F92E0BE00554462 /* Frameworks */,
+				E91714BC1F92E0BE00554462 /* Resources */,
+				61C21AB5E6066D97E90345C4 /* [CP] Embed Pods Frameworks */,
+				8806208F85601655556A602A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FightBot;
+			productName = FightBot;
+			productReference = E91714BE1F92E0BE00554462 /* FightBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E91714B61F92E0BE00554462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Akhil;
+				TargetAttributes = {
+					E91714BD1F92E0BE00554462 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z5PUJXCYA3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E91714B91F92E0BE00554462 /* Build configuration list for PBXProject "FightBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E91714B51F92E0BE00554462;
+			productRefGroup = E91714BF1F92E0BE00554462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E91714BD1F92E0BE00554462 /* FightBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E91714BC1F92E0BE00554462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91714CC1F92E0BE00554462 /* LaunchScreen.storyboard in Resources */,
+				E91714D41F92E18D00554462 /* GoogleService-Info.plist in Resources */,
+				E91714C91F92E0BE00554462 /* Assets.xcassets in Resources */,
+				E91714C71F92E0BE00554462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D81056614DDE2ABC1A64A3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FightBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61C21AB5E6066D97E90345C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FightBot/Pods-FightBot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FightBot/Pods-FightBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8806208F85601655556A602A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FightBot/Pods-FightBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E91714BA1F92E0BE00554462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91714C41F92E0BE00554462 /* ViewController.swift in Sources */,
+				E91714C21F92E0BE00554462 /* AppDelegate.swift in Sources */,
+				E91714D61F92E36B00554462 /* MenuVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E91714C51F92E0BE00554462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91714C61F92E0BE00554462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E91714CA1F92E0BE00554462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91714CB1F92E0BE00554462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E91714CE1F92E0BE00554462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E91714CF1F92E0BE00554462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E91714D11F92E0BE00554462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434F06ED6B4496E21E8D9688 /* Pods-FightBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z5PUJXCYA3;
+				INFOPLIST_FILE = FightBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coding.FightBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E91714D21F92E0BE00554462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8B3EAC42A79DBF77DE22A6 /* Pods-FightBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z5PUJXCYA3;
+				INFOPLIST_FILE = FightBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coding.FightBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E91714B91F92E0BE00554462 /* Build configuration list for PBXProject "FightBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91714CE1F92E0BE00554462 /* Debug */,
+				E91714CF1F92E0BE00554462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91714D01F92E0BE00554462 /* Build configuration list for PBXNativeTarget "FightBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91714D11F92E0BE00554462 /* Debug */,
+				E91714D21F92E0BE00554462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E91714B61F92E0BE00554462 /* Project object */;
+}
